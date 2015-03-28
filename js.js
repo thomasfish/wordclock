@@ -34,3 +34,14 @@ function timecheck() {
   $("#and").addClass("active");
   $("#secs").addClass("active");
 }
+
+function todark() {
+  $("body").removeClass("light");
+  $("body").removeClass("dark");
+  $("body").addClass("dark");
+}
+function tolight() {
+  $("body").removeClass("dark");
+  $("body").removeClass("light");
+  $("body").addClass("light");
+}
